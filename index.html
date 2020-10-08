@@ -8,6 +8,12 @@
             href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
         />
         <link rel="stylesheet" href="stylesheets/main-styles.css" />
+        <script
+            async
+            defer
+            type="text/javascript"
+            src="scripts/gear-dropdown.js"
+        ></script>
         <title>App Academy Times</title>
     </head>
     <body>
@@ -24,8 +30,38 @@
                 <div class="masthead__action-buttons">
                     <button>Subscribe Now</button>
                     <button>log in</button>
-                    <div class="masthead__icon-button">
+                    <div class="masthead__icon-button gear">
                         <i class="fas fa-cog"></i>
+                    </div>
+                    <div class="pref pref--hidden">
+                        <div class="pref__section">
+                            <div class="pref__section-header">Edition</div>
+                            <ul>
+                                <li class="pref__section-link">
+                                    <a href="#">CSS</a>
+                                </li>
+                                <li class="pref__section-link">
+                                    <a href="#">HTML</a>
+                                </li>
+                                <li class="pref__section-link">
+                                    <a href="#">JavaScript</a>
+                                </li>
+                                <li class="pref__section-link">
+                                    <a href="#">Python</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pref__section">
+                            <div class="pref__section-header">Help</div>
+                            <ul>
+                                <li class="pref__section-link">
+                                    <a href="#">FAQ</a>
+                                </li>
+                                <li class="pref__section-link">
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="masthead__technologies">
@@ -108,9 +144,15 @@
                     </article>
 
                     <ul class="interest-link__stock-list">
-                        <li class="interest-link__stock-price">AAO<span>+100%</span></li>
-                        <li class="interest-link__stock-price">SWE<span>+110%</span></li>
-                        <li class="interest-link__stock-price">CAT<span>+111%</span></li>
+                        <li class="interest-link__stock-price">
+                            AAO<span>+100%</span>
+                        </li>
+                        <li class="interest-link__stock-price">
+                            SWE<span>+110%</span>
+                        </li>
+                        <li class="interest-link__stock-price">
+                            CAT<span>+111%</span>
+                        </li>
                     </ul>
                     <img
                         class="interest-links__image"

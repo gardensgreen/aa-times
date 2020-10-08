@@ -7,14 +7,13 @@
 }
 
 .interest-links__image {
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px;
     width: 60%;
 }
 
 .interest-links__article {
     margin-right: 30px;
-    border-right: 1px solid #E2E2E2
+    border-right: 1px solid #e2e2e2;
 }
 .interest-links__headline {
     margin-top: 15px;
@@ -23,29 +22,30 @@
 
 .interest-links__story {
     font-size: 10px;
+    padding-right: 10px;
 }
 
-h6{
+h6 {
     margin: 0;
 }
 
-.interest-link__stock-list{
+.interest-link__stock-list {
     padding-top: -5px;
     padding-bottom: 5px;
-    border-right: 1px solid #E2E2E2;
+    border-right: 1px solid #e2e2e2;
 }
 
-.interest-link__stock-price{
+.interest-link__stock-price {
     margin-top: 10px;
     font-size: 12px;
     display: flex;
     justify-content: space-around;
 }
 
-.interest-link__stock-price span{
+.interest-link__stock-price span {
     color: green;
 }
 
-.interest-links__big-text{
+.interest-links__big-text {
     margin-top: 30px;
 }
