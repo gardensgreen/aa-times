@@ -1,35 +1,46 @@
-.masthead{
+.masthead {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
 
-.masthead__search-menu{
+.masthead__search-menu {
     grid-column-start: 0;
     grid-column-end: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 
-.masthead__action-buttons{
+.masthead__action-buttons {
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-.masthead__technologies{
+.masthead__technologies {
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
-.masthead__date{
+.masthead__date {
     grid-column-start: 0;
     grid-column-end: 1;
 }
 
-.masthead__logo{
+.masthead__logo {
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
-.masthead__today-paper{
+.masthead__today-paper {
     grid-column-start: 3;
     grid-column-end: 4;
+}
+
+.masthead__icon-button {
+    font-size: 11px;
+    padding: 7px 9px;
+}
+
+.masthead__icon-button:hover {
+    background-color: #f7f7f5;
 }
