@@ -23,21 +23,58 @@
 .masthead__technologies {
     grid-column-start: 2;
     grid-column-end: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.masthead__technology{
+    margin: 0 4px;
+}
+
+.masthead__technology-list{
+    border-top: 1px solid #E2E2E2;
+    border-left: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
+    background-color: white;
+    position: relative;
+    top: 1px;
+    color: #6f6f6f;
+    font-size: 10px;
+    text-transform: uppercase;
 }
 
 .masthead__date {
     grid-column-start: 0;
     grid-column-end: 1;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 5px;
+    border-top: 1px solid #E2E2E2;
 }
 
 .masthead__logo {
     grid-column-start: 2;
     grid-column-end: 3;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 5px;
+    border-top: 1px solid #E2E2E2;
 }
 
 .masthead__today-paper {
     grid-column-start: 3;
     grid-column-end: 4;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 5px;
+    border-top: 1px solid #E2E2E2;
 }
 
 .masthead__icon-button {
