@@ -1,0 +1,14 @@
+.interest-links__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    grid-gap: 0px;
+}
+
+.interest-links__image {
+    margin-top: 30px;
+    width: 60%;
+}
+
+.interest-links__article {
+    margin-right: 30px;
+}
