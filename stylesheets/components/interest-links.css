@@ -1,14 +1,51 @@
 .interest-links__container {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
     grid-gap: 0px;
 }
 
 .interest-links__image {
-    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
     width: 60%;
 }
 
 .interest-links__article {
     margin-right: 30px;
+    border-right: 1px solid #E2E2E2
+}
+.interest-links__headline {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.interest-links__story {
+    font-size: 10px;
+}
+
+h6{
+    margin: 0;
+}
+
+.interest-link__stock-list{
+    padding-top: -5px;
+    padding-bottom: 5px;
+    border-right: 1px solid #E2E2E2;
+}
+
+.interest-link__stock-price{
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.interest-link__stock-price span{
+    color: green;
+}
+
+.interest-links__big-text{
+    margin-top: 30px;
 }
