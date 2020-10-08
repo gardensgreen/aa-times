@@ -67,7 +67,33 @@
     grid-area: side;
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.main-content__side .main-content__article {
+    margin-bottom: 30px;
+}
+.main-content__side .article__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0;
+    line-height: 25px;
+}
+
+.main-content__side .article__byline {
+    color: rgb(104, 104, 104);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.main-content__side .article__category {
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.main-content__side .main-content__article img {
+    height: 75%;
 }
 
 .main-content__links {
