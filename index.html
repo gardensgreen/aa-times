@@ -14,6 +14,12 @@
             type="text/javascript"
             src="scripts/gear-dropdown.js"
         ></script>
+        <script
+            async
+            defer
+            type="text/javascript"
+            src="scripts/search-menu.js"
+        ></script>
         <title>App Academy Times</title>
     </head>
     <body>
@@ -23,8 +29,12 @@
                     <div class="masthead__icon-button">
                         <i class="fa fa-bars"></i>
                     </div>
-                    <div class="masthead__icon-button">
+                    <div class="masthead__icon-button search">
                         <i class="fa fa-search"></i>
+                    </div>
+                    <div class="search-modal search-modal--hidden">
+                        <input type="search" placeholder="Search">
+                        <button>Go</button>
                     </div>
                 </div>
                 <div class="masthead__action-buttons">
