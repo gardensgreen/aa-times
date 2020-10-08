@@ -1,0 +1,12 @@
+.main-nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.main-nav__item {
+    margin: 10px 10px;
+    transform: translateX(70px);
+}
