@@ -1,0 +1,45 @@
+.main-content {
+    display: grid;
+    grid-template-areas:
+        "main main side"
+        "bottom bottom side";
+}
+.main-content__main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+        "title title "
+        "article video ";
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-content__title {
+    grid-area: title;
+}
+
+.main-content__article {
+    grid-area: article;
+}
+
+.main-content__video {
+    grid-area: video;
+}
+
+.main-content__article-story li {
+    list-style: circle;
+}
+
+.main-content__article-story {
+    padding-top: 10px;
+}
+
+.main-content__bottom {
+    grid-area: bottom;
+    display: flex;
+}
+
+.main-content__side {
+    grid-area: side;
+    display: flex;
+    flex-direction: column;
+}
