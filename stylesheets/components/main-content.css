@@ -19,8 +19,9 @@
     font-weight: bold;
     font-size: 42px;
     font-style: italic;
-    margin: 15px 0;
-    line-height: 42px;
+    margin-top: 15px;
+    line-height: 32px;
+    align-items: center;
 }
 
 .main-content__article-title {
