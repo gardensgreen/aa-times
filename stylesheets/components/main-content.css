@@ -41,6 +41,7 @@
     padding-left: 10px;
 }
 .main-content__bottom .main-content__article:first-child {
+    padding-right: 15px;
     border-right: 1px solid #e2e2e2;
 }
 .article__header {
