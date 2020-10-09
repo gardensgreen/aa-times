@@ -32,7 +32,7 @@
 .main-content__main .main-content__article {
     grid-area: article;
     margin-bottom: 10px;
-    border-right: 1px solid #e2e2e2;
+
     padding-left: 10px;
     padding-right: 20px;
 }
@@ -48,14 +48,18 @@
 }
 
 .main-content__video {
+    margin: 10px 0;
+    padding: 0 10px;
     grid-area: video;
 }
 
 .main-content__article-story li {
     list-style: circle;
+    margin-bottom: 10px;
 }
 
 .main-content__article-story {
+    font-size: 12px;
     padding-top: 10px;
 }
 
@@ -63,6 +67,9 @@
     margin-top: 10px;
     grid-area: bottom;
     display: flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .main-content__side {
@@ -73,9 +80,18 @@
 }
 
 .main-content__side .main-content__article {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 20px;
 }
 .main-content__side .article__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0;
+    line-height: 25px;
+}
+
+.main-content__bottom .article__title {
     font-weight: bold;
     font-size: 24px;
     margin: 10px 0;
@@ -88,17 +104,58 @@
     font-size: 14px;
 }
 .main-content__side .article__category {
-    color: black;
+    color: darkgrey;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     font-size: 12px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.main-content__side .main-content__article img {
-    height: 75%;
+.main-content__bottom .article__byline {
+    color: rgb(104, 104, 104);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.main-content__side img {
+    height: 80px;
+    margin-bottom: 10px;
 }
 
 .main-content__links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.main-content__article p {
+    font-size: 12px;
+}
+
+.main-content__links-author {
+    color: grey;
+    font-size: 9px;
+}
+
+.main-content__links h6 {
+    font-weight: bold;
+}
+
+.main-content__link {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.main-content__video p {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.comments {
+    padding-top: 30px;
+    color: grey;
 }
